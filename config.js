@@ -1,4 +1,4 @@
-const { Sequelize } = require("sequelize");
+uconst { Sequelize } = require("sequelize");
 const fs = require("fs");
 require("dotenv").config();
 const toBool = (x) => x === "true";
@@ -17,20 +17,20 @@ module.exports = {
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "main",
   WARN_COUNT: 3,
-  PACKNAME: process.env.PACKNAME || "X-Asena",
+  PACKNAME: process.env.PACKNAME || "Marvel",
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
-  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
-  AUTHOR: process.env.AUTHOR || "X-Electra",
+  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you, with respect to my owner Emarvel",
+  AUTHOR: process.env.AUTHOR || "Marvel",
   SUDO:
-    process.env.SUDO || "918113921898,919598157259,918590508376,919383400679",
+    process.env.SUDO || "255699526265,255615885851",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
+  OWNER_NAME: process.env.OWNER_NAME || "Marvel",
   HEROKU: toBool(process.env.HEROKU) || false,
-  BOT_NAME: process.env.BOT_NAME || "X-Asena",
+  BOT_NAME: process.env.BOT_NAME || "Marvel MD",
   AUTO_READ: toBool(process.env.AUTO_READ) || false,
   AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || false,
-  PROCESSNAME: process.env.PROCESSNAME || "x-asena",
+  PROCESSNAME: process.env.PROCESSNAME || "marvel",
   WORK_TYPE: process.env.WORK_TYPE || "private",
   SESSION_URL: process.env.SESSION_URL || "",
   DELETED_LOG: toBool(process.env.DELETED_LOG) || false,
